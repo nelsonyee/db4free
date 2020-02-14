@@ -1,6 +1,7 @@
 connection: "db4free_mysql"
 
 # include all the views
+#
 include: "/views/**/*.view"
 
 datagroup: db4free_default_datagroup {
