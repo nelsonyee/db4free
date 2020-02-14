@@ -75,6 +75,7 @@ view: project {
       form_param: {
         label: "New Project Name"
         name: "new_project_name"
+        description: "Update Project Name"
         type: string
         required: no
       }
