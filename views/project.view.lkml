@@ -55,7 +55,9 @@ view: project {
     sql: ${TABLE}.ProjectName ;;
     action: {
       label: "Update Project Name"
-      url: "https://e247c1.pipegears.io/projects"  # Replace [yourlink]
+      ##  url: "https://e247c1.pipegears.io/projects"
+      ##  url: "https://localhost:5000/hello"
+      url: "https://hooks.zapier.com/hooks/catch/6674471/ombtdxc/"
       param: {
         name: "auth_code"
         value: "abc123456"
